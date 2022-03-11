@@ -12,7 +12,6 @@ body {
     display: block;
 }
 .footer {
-    position: absolute;
     bottom: 0px;
     height: 36px;
     margin-top: 40px;
