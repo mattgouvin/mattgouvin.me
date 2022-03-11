@@ -15,8 +15,8 @@ body {
     position: absolute;
     bottom: 0px;
     height: 36px;
-
     margin-top: 40px;
+    display: flex;
 }
 .container.topper .row, .container.topper .col {
     margin: 0px;
