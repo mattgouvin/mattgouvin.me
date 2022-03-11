@@ -13,9 +13,11 @@ body {
 }
 .footer {
     bottom: 0px;
+    left: 0px;
     height: 36px;
     margin-top: 40px;
     display: flex;
+    position: fixed;
 }
 .container.topper .row, .container.topper .col {
     margin: 0px;
