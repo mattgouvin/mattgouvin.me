@@ -8,6 +8,7 @@ body {
 .top {
     height: 18px;
     margin-bottom: 40px;
+    display: block;
 }
 .footer {
     position: absolute;
