@@ -8,16 +8,12 @@ body {
 }
 .top {
     height: 18px;
-    margin-bottom: 40px;
-    display: block;
 }
 .footer {
     bottom: 0px;
     left: 0px;
     height: 36px;
     margin-top: 40px;
-    position: fixed;
-    padding-top: 100px;
 }
 .container.topper .row, .container.topper .col {
     margin: 0px;
