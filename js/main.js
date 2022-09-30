@@ -33,9 +33,10 @@
 			});
 		}
 		else {
-			$('.js-fullheight').css('height', $(window).screen.height());
+			$('.js-fullheight').css('height', (typeof window.outerHeight != 'undefined')?Math.max(window.outerHeight, $(window).height()):$(window).height());
+
 			$(window).resize(function(){
-				$('.js-fullheight').css('height', $(window).screen.height());
+				$('.js-fullheight').css('height', (typeof window.outerHeight != 'undefined')?Math.max(window.outerHeight, $(window).height()):$(window).height());
 			});
 		}
 	};
