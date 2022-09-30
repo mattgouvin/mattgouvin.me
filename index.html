@@ -1,40 +1,242 @@
-<html lang="en">
+
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="utf-8">
-    <title>Matt Gouvin</title>
-    <meta name="description" content="Matt Gouvin is a journalist and programmer.">
-    <meta name="author" content="Matt Gouvin">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" integrity="undefined" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" href="Gouvin-Headshot-Square.png">
-    <script src="myScript.js"></script>
+	<meta charset="utf-8">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Matt Gouvin</title>
+	<meta name="image" property="og:image" content="images/Gouvin_Profile_Transparent.jpg">
+	<meta name="author" content="Matthew Gouvin">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/balloon-css/0.5.0/balloon.min.css">
+
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+    <script src="https://kit.fontawesome.com/f426ed2bdb.js" crossorigin="anonymous"></script>
 </head>
-<body>
-    <div class="top"></div>
-    <br>
-    <div class="container topper">
-    <div class="row">
-        <div class="col">
-            <img class="portrait" src="Gouvin-Headshot-Square.png"/>
-            <div>
-                <a target="_blank" href="http://github.com/mattgouvin">
-                    <img class="social" src="github.png"/>
-                </a>
-                <a target="_blank" href="http://twitter.com/mattgouvin">
-                    <img class="social" src="twitter.jpeg"/>
-                </a>
-                <a target="_blank" href="https://www.linkedin.com/in/matthew-gouvin/">
-                    <img class="social" src="linkedin.png">
-                </a>
-                <h1>Matthew Gouvin</h1>
-            <p class="lead">Hello! I'm a budding software engineer interested in full-stack software development.</p>
-            <p class="lead">I use code to solve problems and develop innovative products.</p>
-            <p class="lead">I'm a second-year undergraduate student at the George Washington University pursuing a Bachelor of Science in computer science.</p>
+
+  <body>
+	<section class="header">
+		<header id="header" class="fh5co-cover js-fullheight" role="banner">
+                    <div class="display-t js-fullheight">
+                        <div class="display-tc js-fullheight animate-box">
+                            <div class="profile-thumb"></div>
+                            <h1><span>Matt Gouvin</span></h1>
+                            <h2><span>Software Engineer</span></h2>
+                            <p>
+                                <ul class="social">
+                                    <a href="https://www.linkedin.com/in/matthew-gouvin"><li data-balloon="@matthew-gouvin" data-balloon-pos="down" class="social-icons"><i class="fab fa-linkedin"></i></li></a>
+                                    </li>
+                                    <a href="https://www.twitter.com/mattgouvin"><li data-balloon="@mattgouvin" data-balloon-pos="down" class="social-icons"><i class="fab fa-twitter"></i></li></a>
+                                    </li>
+                                    <a href="https://github.com/mattgouvin"><li data-balloon="@mattgouvin" data-balloon-pos="down" class="social-icons"><i class="fab fa-github"></i></li></a>
+                                </ul>
+                                <br>
+                                <br>
+                                <a href="Gouvin-Resume.pdf" class="button resume-button">See Resume <i class="far fa-file-pdf"></i></a> 
+                            </p>
+                            <div id="scroll-indicator" class="scroll-arrow fadeInTop">
+                                <p><i class="fa-solid fa-chevron-down"></i></p>
+                            </div>
+                        </div>
+		</header>
+    </section>
+
+    <section class="animate-box">
+        <h2 class="section-header">Education</h2>
+        <div class="card-wrapper">
+        <div class="card">
+            <div class="card-info">
+            <h3>The George Washington University</h3>
+            <p class="info"><i class="fas fa-diploma"></i> Computer Science, BS </p>
+            <p class="info"><i class="fas fa-graduation-cap"></i> Expected May 2024</p>
+            <p>I'm in my third year of studying computer science at GWU. I'm interested in software engineering and machine learning.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-info">
+            <h3>Chariho High School</h3>
+            <p class="info"><i class="fas fa-graduation-cap"></i> May 2020</p>
+            <p>I graduated as the valedictorian of my graduating class. Through my extracurricular and classroom experiences, I developed a dedication to self-directed learning and critical thinking.
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section>
+        <h2 class="section-header">Experience</h2>
+        <ul class="timeline">
+            <li class="animate-box timeline-unverted" id="timeline-unverted1">
+                <div class="timeline-badge"><i class="icon-suitcase"></i></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h3 class="timeline-title">Software Development Intern</h3>
+                        <div>
+                            <h4 style="margin-bottom: 0px; margin-top: 0px">SURVICE Engineering</h4>
+                            <h4 style="margin-top: 0px">May 2022 — Present</h4>
+                        </div>
+                    </div>
+                    <div class="timeline-body">
+                        <p>I helped to create a web application called <a href="https://i2ms.dsiac.org/">I2MS</a>. This application provides data management and research support tools for DoD and federal government users.</p>
+                    </div>
+                </div>
+            </li>
+            <li class="timeline-inverted animate-box">
+                <div class="timeline-badge"></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h3 class="timeline-title">Undergraduate Research Assistant</h3>
+                        <div>
+                            <h4 style="margin-bottom: 0px; margin-top: 0px">GWUSEC</h4>
+                            <h4 style="margin-top: 0px">March 2022 — May 2022</h4>
+                        </div>
+                    </div>
+                    <div class="timeline-body">
+                        <p>At the George Washington University Usable Security and Privacy Lab, I helped to design a database schema that stores APK application data collected from web-scraping tools.</p>
+                    </div>
+                </div>
+            </li>
+            <li class="timeline-unverted animate-box" id="timeline-unverted2">
+                <div class="timeline-badge"><i class="icon-suitcase"></i></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h3 class="timeline-title">Contributing Writer</h3>
+                        <div>
+                            <h4 style="margin-bottom: 0px; margin-top: 0px">The Westerly Sun</h4>
+                            <h4 style="margin-top: 0px">July 2019 - June 2021</h4>
+                        </div>
+                    </div>
+                    <div class="timeline-body">
+                        <p>Before I discovered software development, I was a journalist for <i>The Westerly Sun</i>, my local newspaper in Rhode Island. I conducted research and I wrote over 35 stories with a specialized focus on municipal government.</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+
+  <section>
+    <h2 class="section-header">Skills</h2>
+    <div class="card-wrapper">
+        <div class="card iconCard">
+            <div class="card-icon">
+              <i class="fab fa-java"></i>
+            </div>
+            <div class="card-details">
+              <h3>Java</h3>
+            </div>
+        </div>
+        <div class="card iconCard">
+            <div class="card-icon">
+            <i class="fab fa-c"></i>
+            </div>
+            <div class="card-details">
+            <h3>C</h3>
+            </div>
+        </div>
+        <div class="card iconCard">
+            <div class="card-icon">
+              <i class="fab fa-python"></i>
+            </div>
+            <div class="card-details">
+              <h3>Python</h3>
+            </div>
+        </div>
+        <div class="card iconCard">
+            <div class="card-icon">
+            <i class="fab fa-html5"></i>
+            </div>
+            <div class="card-details">
+            <h3>HTML</h3>
+            </div>
+        </div>
+        <div class="card iconCard">
+            <div class="card-icon">
+            <i class="fab fa-css3"></i>
+            </div>
+            <div class="card-details">
+            <h3>CSS</h3>
+            </div>
+        </div>
+        <div class="card iconCard">
+            <div class="card-icon">
+            <i class="fab fa-js-square"></i>
+            </div>
+            <div class="card-details">
+            <h3>JavaScript</h3>
+            </div>
+        </div>
+        <div class="card iconCard">
+            <div class="card-icon">
+            <i class="fab fa-node-js"></i>
+            </div>
+            <div class="card-details">
+            <h3>Node.js</h3>
+            </div>
+        </div>
+        <div class="card iconCard">
+            <div class="card-icon">
+            <i class="fa-brands fa-angular"></i>
+            </div>
+            <div class="card-details">
+            <h3>Angular</h3>
+            </div>
+        </div>
+        <div class="card iconCard">
+            <div class="card-icon">
+            <i class="fab fa-jira"></i>
+            </div>
+            <div class="card-details">
+            <h3>Jira</h3>
+            </div>
+        </div>
+        <div class="card iconCard">
+            <div class="card-icon">
+            <i class="fas fa-database"></i>
+            </div>
+            <div class="card-details">
+            <h3>Database Design</h3>
             </div>
         </div>
     </div>
+  </section>
+  <section>
+    <h2 class="section-header">Projects</h2>
+    <div class="card-wrapper">
+      <div class="card">
+        <div class="card-info">
+          <h3>This Website</h3>
+          <p class="info"><i class="fas fa-calendar-alt"></i>  Summer 2022</p>
+          <p>I created this website.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-info">
+          <h3>University Management System</h3>
+          <p class="info"><i class="fas fa-calendar-alt"></i>  Spring 2022</p>
+          <p> I created a responsive web application that manages college applications, class registration, and academic advising. I designed the relational database schema, implemented the solution with Amazon Web Services, and utilized the database in the management of university information.
+            </p>
+        </div>
+      </div>
     </div>
+  </section>
+  <br>
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Main -->
+	<script src="js/main.js"></script>
 </body>
-<div class="footer"></div>
 </html>
