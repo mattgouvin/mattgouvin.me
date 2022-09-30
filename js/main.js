@@ -32,6 +32,12 @@
 				$('.js-fullheight').css('height', $(window).height());
 			});
 		}
+		else {
+			$('.js-fullheight').css('height', $(window).screen.height());
+			$(window).resize(function(){
+				$('.js-fullheight').css('height', $(window).screen.height());
+			});
+		}
 	};
 
 	var contentWayPoint = function() {
