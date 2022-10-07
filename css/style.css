@@ -61,8 +61,7 @@ html, body {
 }
 
 section {
-  display: flex;
-  flex-direction: column;
+  display: block;
 	text-align: center;
   margin: auto;
 }
